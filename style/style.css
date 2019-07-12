@@ -449,7 +449,7 @@ footer {
 .showcase {
     grid-area: showcase;
     height: 30em;
-    background: url("../image/16.jpg");
+    background: url("../image/tub.JPG");
     background-size: cover;
     background-position: center;
     padding: 3rem;
