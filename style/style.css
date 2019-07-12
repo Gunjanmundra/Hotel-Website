@@ -212,9 +212,12 @@ nav ul li :hover {
 /*Welcome*/
 
 .container.welcome-header {
-    margin: 5em 0;
+    margin-top: 5em;
 }
 
+.welcome-title .border{
+    width: 25em;
+}
 .welcome-content {
     margin: 2em 0;
     font-size: 1.2em;
@@ -444,6 +447,7 @@ footer {
     display: grid;
     grid-gap: 10px;
     grid-template-areas: 'showcase showcase top-box-a' 'showcase showcase top-box-b';
+     
 }
 
 .showcase {
@@ -459,6 +463,7 @@ footer {
     justify-content: center;
     box-shadow: var(--shadow);
     border: none;
+    box-shadow: 1px 5px 4px 1px rgba(0, 0, 0, 0.4);
 }
 
 .showcase h1 {
@@ -474,7 +479,7 @@ footer {
 }
 
 .showcase a {
-    box-shadow: 1px 5px 4px 1px rgba(0, 0, 0, 0.4)
+    box-shadow: 1px 5px 4px 1px rgba(0, 0, 0, 0.4);
 }
 
 .showcase a:active {
@@ -488,6 +493,8 @@ footer {
     justify-items: center;
     box-shadow: var(--shadow);
     padding: 3.5rem;
+    box-shadow: 1px 5px 4px 1px rgba(0, 0, 0, 0.4);
+    
 }
 
 .top-box-a {
