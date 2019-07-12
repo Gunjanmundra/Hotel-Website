@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/datepicker.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/fontawesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--NavBar Start-->
+
+    <header>
+        <div class="navbar">
+            <div class="nav-menu">
+                <a href="#" class="logo"><img src="image/imageedit_3_4103790368.png" alt="Logo"></a>
+                <div class="toggle">
+                    <img src="image/menu1.png" class="menu" alt="">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="room.html">Room</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="amenities.html">Amenities</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Book Now</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="nav-img">
+                <div class="portfolio-over">
+                    <h1>Welcome to Hotel AmericInn</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Navbar End-->
+
+    <!--Check Availabilty Start-->
+
+    <form action="" class="reservation">
+        <div class="available-box">
+
+            <div class="check-col">
+                <label for="checkin" class="checklabel">Check In</label>
+                <input type="text" id="checkin" class="datepicker-here checkdate avail-large" placeholder="DD-MM-YY" data-language="en">
+            </div>
+            <div class="check-col">
+                <label for="checkout" class="checklabel">Check Out</label>
+                <input type="text" id="checkout" class="datepicker-here checkdate avail-large" placeholder="DD-MM-YY" data-language="en">
+            </div>
+            <div class="check-col">
+                <label for="check-room" class="checklabel ">Room</label>
+                <input id="check-room" class="checkdate avail-small" type="number" value="1" min="1">
+            </div>
+            <div class="check-col">
+                <label for="adult" class="checklabel">Adult</label>
+                <input id="adult" class="checkdate avail-small" type="number" value="1" min="1">
+            </div>
+            <div class="check-col">
+                <label for="children" class="checklabel">Children</label>
+                <input id="children" class="checkdate avail-small" type="number" value="0" min="0">
+            </div>
+            <div class="check-col">
+                <button class="check-btn">Check Availability</button>
+            </div>
+        </div>
+    </form>
+
+    <!--Check Availability End-->
+
+    <!--Welcome Start-->
+    <div class="container welcome-header">
+        <div class="welcome-title">
+            <h1>Welcome to Hotel AmericInn</h1>
+        </div>
+        <div class="welcome-content">
+            <p>For example, in a retail clothing store, you might want to use bold colors to draw shoppers to the racks of clothes. You want the wall color to contrast with the merchandise shelves so shoppers can instantly know where to look when they enter
+                the store. In contrast, you probably want to feel more relaxed in a cottage vacation house. You want your wall color and decor to have a soothing and relaxing effect. You want everything to blend in so you can focus on the breathtaking
+                landscape view from the over-sized window.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur odit delectus in accusamus quaerat hic officia quidem, voluptas obcaecati quia sed sequi magnam maiores similique vitae, ea incidunt sit. Perspiciatis.</p>
+        </div>
+
+    </div>
+    <!--Welcome End-->
+
+
+    <!--Rooms Start-->
+    <div class="container">
+
+        <h1 class="room-h1">Our Rooms</h1>
+        <div class="border"></div>
+        <div class="room">
+            <div class="room-col">
+                <img src="image/single-min.jpg" alt="">
+                <div class="room-text">
+                    <div class="room-title">
+                        <h2>Single Room</h2>
+                    </div>
+                    <div class="room-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum corrupti, hic illum obcaecati est rem labore corporis non magni voluptdit velit nulla.</p>
+                    </div>
+                    <div class="room-btn">
+                        <button>Book Now</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="room-col">
+                <div class="room-img">
+                    <img src="image/double-min.jpg" alt="">
+                    <div class="room-text">
+                        <div class="room-title">
+                            <h2>Double Room</h2>
+                        </div>
+                        <div class="room-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum corrupti, hic illum obcaecati est rem labore corporis non magni voluptdit velit nulla.</p>
+                        </div>
+                        <div class="room-btn">
+                            <button>Book Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="room-col">
+
+                <img src="image/deluxe.jpg" alt="">
+                <div class="room-text">
+                    <div class="room-title">
+                        <h2>Deluxe Room</h2>
+                    </div>
+                    <div class="room-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum corrupti, hic illum obcaecati est rem labore corporis non magni voluptdit velit nulla.</p>
+                    </div>
+                    <div class="room-btn">
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Rooms End-->
+
+
+    <!--Gallery Start-->
+
+    <div class="wrapper">
+        <h1>Our Gallery</h1>
+        <div class="border"></div>
+        <section class="top-container">
+
+            <div class="showcase">
+
+                <a href="gallery.html" class="btn">More Gallery</a>
+            </div>
+
+            <div class="top-box top-box-a">
+                <div class="portfolio-overlay">
+
+                </div>
+            </div>
+            <div class="top-box top-box-b">
+                <div class="portfolio-overlay">
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!--Gallery End-->
+
+
+
+    <!--Service Start-->
+
+    <div class="services-section">
+        <div class="inner-width">
+            <h1 class="section-title">Our Services</h1>
+            <div class="border"></div>
+            <div class="service-container">
+
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h2>Dining </h2>
+                    <div class="service-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod reiciendis eveniet et, eum eius nisi?
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h2>Parking Facility</h2>
+                    <div class="service-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eligendi velit error architecto expedita vitae!
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fas fa-concierge-bell"></i>
+                    </div>
+                    <h2>Room Services</h2>
+                    <div class="service-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolor aut voluptas eaque repudiandae qui?.
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h2>Health - Spa</h2>
+                    <div class="service-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sunt expedita numquam nostrum quisquam doloremque.
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fa fa-wifi"></i>
+                    </div>
+                    <h2>Free Internet</h2>
+                    <div class="service-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut assumenda laudantium possimus, nihil molestiae omnis!
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h2>Airport Transfer</h2>
+                    <div class="service-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta veritatis ad exercitationem provident atque quae.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--Service End-->
+
+
+
+    <!--Our Customers Start-->
+
+    <div class="testinomials">
+
+        <div class="inner">
+
+            <h1>Our Customers</h1>
+            <div class="border"></div>
+            <div class="row">
+                <div class="col">
+                    <div class="testinomial">
+                        <img src="image/23.jpg" alt="image">
+                        <div class="name">M S Dhoni</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error officia facilis nesciunt, dolorum voluptatum corrupti.</p>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div class="testinomial">
+                        <img src="image/28.jpg" alt="image">
+                        <div class="name">Alia Bhatt</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error officia facilis nesciunt, dolorum voluptatum corrupti.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="testinomial">
+                        <img src="image/24.jpeg" alt="image">
+                        <div class="name">Salman Khan</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error officia facilis nesciunt, dolorum voluptatum corrupti.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Our Customer End-->
+
+
+    <!--Map Start-->
+    <div class="container map-contact">
+        <div class="map">
+            <h2>Our Location</h2>
+            <div class="border"></div>
+            <div id="googleMap" class="maps"></div>
+        </div>
+
+        <div class="contact">
+            <h2>Contacts</h2>
+            <div class="border"></div>
+            <form action="#">
+                <div class="contact-edit">
+                    <div><input type="text" class="form-control form-input" placeholder="Name"></div>
+                    <div><input type="email" class="form-control form-input" placeholder="Email"></div>
+                    <div>
+                        <textarea class="form-control" id="textarea" rows="10" placeholder="Your Message"></textarea>
+
+                    </div>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!--Map End-->
+
+
+    <!--Footer Start-->
+
+    <Footer>
+        <div class="footer-start">
+
+            <div class="footer-head">
+                <div class="footer-logo">
+
+                </div>
+                <div class="footer-title">
+                    <h1>Hotel AmericInn</h1>
+                </div>
+            </div>
+            <div class="footer-contacts">
+                <div class="footer-address">
+                    <i class="far fa-address-book footer-icon"></i>
+                    <p>Texas road, USA</p>
+                </div>
+                <div class="footer-phone">
+                    <i class="fas fa-phone footer-icon"></i>
+                    <p>1234567890</p>
+                </div>
+                <div class="footer-email">
+                    <i class="fas fa-envelope footer-icon"></i>
+                    <p>hotel@gmail.com</p>
+                </div>
+                <div class="footer-social">
+                    <i class="fas fa-users footer-icon"></i>
+                    <p>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-end">
+            <h3>Copyright &copy 2019, Hotel AmericInn - All Rights Reserved</h3>
+        </div>
+    </Footer>
+
+    <!--Footer End-->
+
+
+
+
+    <script src="script/jquery.js"></script>
+    <script src="script/datepicker.js"></script>
+    <script src="script/datepicker.en.js"></script>
+
+    <script src="script/fontawesome.min.js"></script>
+    <script src="script/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOzr075-2QYTzR3OVM6f37JFzT8i9u1r0&callback=initMap"></script>
+
+</body>
+
+</html>

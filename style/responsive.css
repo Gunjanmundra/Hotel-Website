@@ -1,0 +1,281 @@
+@media screen and (max-width: 1110px) {
+    .room img {
+        height: 12em;
+    }
+    .room-title {
+        font-size: 13px;
+    }
+    .room-content {
+        font-size: 14px;
+    }
+    .maps {
+        width: 18em;
+        height: 17em;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    #textarea {
+        width: 100%;
+    }
+    .room-text {
+        height: 15em;
+    }
+    .room img {
+        height: 10em;
+    }
+    .room-title {
+        font-size: 12px;
+    }
+    .room-content {
+        font-size: 13px;
+        line-height: 1.4em;
+    }
+    .maps {
+        width: 20em;
+        height: 18em;
+    }
+    .contact {
+        width: 60%;
+        height: 50%;
+    }
+    .service-box {
+        max-width: 50%;
+    }
+    .col {
+        flex: 50%;
+        max-width: 80%;
+    }
+    .footer-contacts {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 3em;
+    }
+    .check-col label {
+        font-size: 0.75em;
+    }
+    .content_room {
+        width: calc(100% - 21em);
+        float: right;
+    }
+    .content_room h3 {
+        margin-top: 0;
+        margin-bottom: 0.5em;
+    }
+    .room-page p {
+        line-height: 1.3em;
+        font-size: 0.9em;
+    }
+    .logo img {
+        margin-left: 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .room-page {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content_room h3 {
+        margin: 1em 0;
+    }
+    .content_room {
+        width: 90%;
+    }
+    .logo {
+        font-size: 1.5em;
+        line-height: 2.5em;
+    }
+    .nav-img {
+        height: 35em;
+    }
+    nav{
+        float: none;
+    }
+    
+    .toggle{
+        display: block;
+    }
+    nav ul{
+        width: 100%;
+        display: none;
+    }
+    nav ul li{
+        display: block;
+        text-align: center;
+    }
+    nav ul li a{
+        text-align: center;
+    }
+    .active{
+        display: block;
+        transition: 3s;
+    }
+    
+    #textarea {
+        width: 18em;
+    }
+    .container {
+        padding: 5em 3.5em;
+    }
+    .available-box {
+        height: 100%;
+    }
+    .check-col {
+        width: 100%;
+    }
+    .room img {
+        height: 8em;
+    }
+    .room-title {
+        font-size: 12px;
+    }
+    .room-content {
+        font-size: 11px;
+        line-height: 1.2em;
+    }
+    .room-text {
+        height: 12em;
+        width: 100%;
+    }
+    .top-container {
+        grid-template-areas: 'showcase showcase' 'top-box-a top-box-b';
+    }
+    .showcase h1 {
+        font-size: 2.5rem;
+    }
+    .hr-style {
+        padding: 3em 5em;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .responsive {
+        width: 50%;
+        margin: 6px 0;
+    }
+    .menu .menu-toggle {
+        line-height: 2em;
+    }
+    .room {
+        flex-direction: column;
+        align-items: center;
+    }
+    .room-col {
+        width: 68%;
+    }
+    .room-col img {
+        height: 15em;
+    }
+    .room-title {
+        font-size: 1em;
+    }
+    .room-content {
+        font-size: 1em;
+        line-height: 1em;
+    }
+    .room-text {
+        height: 13.5em;
+    }
+    .service-box {
+        max-width: 100%;
+    }
+    .col {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .map,
+    .maps,
+    .contact,
+    #textarea {
+        width: 100%;
+    }
+    .map-contact {
+        flex-direction: column;
+    }
+    .contact {
+        margin-top: 3em;
+    }
+    .footer-end h2 {
+        font-size: 1em;
+    }
+    .contact-edit {
+        padding: 2.5em 0em;
+    }
+    .info-content {
+        flex-direction: column;
+    }
+    .info-content div {
+        margin: 1em 0;
+    }
+    .logo img {
+        width: 4em;
+    }
+}
+
+@media(max-width:500px) {
+    .top-container {
+        grid-template-areas: 'showcase';
+    }
+    .showcase .btn {
+        padding: 1rem 1.2rem;
+        align-self: center;
+    }
+    .top-box {
+        display: none;
+    }
+    .room-col {
+        width: 96%;
+    }
+    .footer-end h3 {
+        font-size: 0.9em;
+    }
+    .portfolio-over h1 {
+        font-size: 2.2em;
+    }
+    .info h1 {
+        font-size: 2.3em;
+    }
+    .info-content span {
+        font-size: 1em;
+        font-weight: 600;
+    }
+    .responsive {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .room-col {
+        width: 100%;
+    }
+    .room-col img {
+        height: 11em;
+    }
+    .room-title {
+        font-size: 0.9em;
+    }
+    .room-content {
+        font-size: 0.8em;
+        line-height: 1.05em;
+    }
+    .room-text {
+        height: 13em;
+    }
+    .showcase h1 {
+        font-size: 1.7em;
+    }
+    .showcase p {
+        font-size: 1em;
+    }
+    .footer-contacts {
+        grid-template-columns: 1fr;
+        row-gap: 3em;
+    }
+    .content_room {
+        width: 100%;
+    }
+    .room-page img {
+        width: 15em;
+        height: 13em;
+    }
+}
